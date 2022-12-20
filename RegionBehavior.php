@@ -1,5 +1,5 @@
 <?php
-namespace chenkby\region;
+namespace prodcd\region;
 use yii\base\Behavior;
 use yii\base\InvalidConfigException;
 

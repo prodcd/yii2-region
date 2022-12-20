@@ -1,12 +1,12 @@
 # yii2-region
-Yii2 中国省市区三级联动(https://github.com/chenkby/yii2-region)
+Yii2 中国省市区三级联动(https://github.com/prodcd/yii2-region)
 
 ## 安装
 
 添加到你的composer.json文件
 
 ```
-"chenkby/yii2-region": "dev-master"
+"prodcd/yii2-region": "dev-master"
 ```
 
 ## 配置
@@ -26,7 +26,7 @@ Yii2 中国省市区三级联动(https://github.com/chenkby/yii2-region)
     {
         $actions=parent::actions();
         $actions['get-region']=[
-            'class'=>\chenkby\region\RegionAction::className(),
+            'class'=>\prodcd\region\RegionAction::className(),
             'model'=>\app\models\Region::className()
         ];
         return $actions;
@@ -40,7 +40,7 @@ Yii2 中国省市区三级联动(https://github.com/chenkby/yii2-region)
 ```php
 $url=\yii\helpers\Url::toRoute(['get-region']);
 
-echo $form->field($model, 'province')->widget(\chenkby\region\Region::className(),[
+echo $form->field($model, 'province')->widget(\prodcd\region\Region::className(),[
     'model'=>$model,
     'url'=>$url,
     'province'=>[
@@ -64,5 +64,5 @@ province为省份配置，可用的选项可以查看Html::dropdownList。如果
 
 ## demo
 
-![image](https://raw.githubusercontent.com/chenkby/yii2-region/master/demo.png)
+![image](https://raw.githubusercontent.com/prodcd/yii2-region/master/demo.png)
 

@@ -1,5 +1,5 @@
 {
-    "name": "chenkby/yii2-region",
+    "name": "prodcd/yii2-region",
     "description": "Yii2中国省市区三级联动",
     "keywords": [
         "yii2","region","province","city","district"
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "chenkby\\region\\": ""
+            "prodcd\\region\\": ""
         }
     }
 }
