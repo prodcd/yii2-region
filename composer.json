@@ -6,12 +6,6 @@
     ],
     "type": "yii2-widget",
     "license": "BSD-3-Clause",
-    "authors": [
-        {
-            "name": "ChenGuanQun",
-            "email": "99912250@qq.com"
-        }
-    ],
     "require": {
         "yiisoft/yii2": "*"
     },
